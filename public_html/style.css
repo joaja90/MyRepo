@@ -82,7 +82,7 @@ header .highlight, header .current a{
 	color: #ffffff;
 }
 
-#side1 h1 {
+#side1 h2 {
 	margin-top: 140px;
 	font-size: 60px;
 	margin-bottom: 0;
@@ -113,7 +113,7 @@ header .highlight, header .current a{
 	padding: 8px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
-section h1 {
+section h2 {
 	text-align: center;
 }
 
