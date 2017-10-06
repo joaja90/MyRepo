@@ -24,7 +24,7 @@ header {
 	background: #35424a;
 	color: #ffffff;
 	padding-top: 10px;
-	min-height: 60px;
+	min-height: 80px;
 	border-bottom: #E44D26 3px solid;
 
 
@@ -44,7 +44,7 @@ header a{
 header li {
 	float:left;
 	display: inline;
-	padding: 0 20px 0 20px;
+	padding: 0 30px 0 20px;
 }
 
 
@@ -74,7 +74,9 @@ header .highlight, header .current a{
 	font-weight: bold;
 }
 
-/* Side 1*/
+
+
+/* index.html*/
 #side1 {
 	min-height: 400px;
 	background: url('billeder/waves.jpg') no-repeat 0 -190px;
@@ -100,19 +102,22 @@ header .highlight, header .current a{
 }
 
 
-
-/* Boxes */
+/* billeder */
 #boxes {
-	margin-top:20px;
+	margin-top:10px;
 	
 }
 .mellemrum {
-	
 	text-align: center;
 	font-size: 16px;
-	padding: 8px;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	padding: 2px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 10px 119px;
+	overflow:hidden;
+	
 }
+
+
 section h2 {
 	text-align: center;
 }
@@ -122,7 +127,7 @@ section p{
 }
 #boxes .box {
 	float:left;
-	width: 20%;
+	width: 19.8%;
 	padding: 20px;
 	text-align: center;
 	
@@ -133,32 +138,92 @@ section p{
 	
 }
 
+#ps {
+	text-align: center;
+}
 
+/* Footer*/
 footer {
 	color: white;
 	background-color: #E44D26;
 	text-align: center;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 6px;
+	
+}
+footer a {
+	text-decoration: none;
+	color:white;
 }
 
+/* kontakt + knap */
 .button_1 {
-	height:38px;
+	height:48px;
 	background: #E44D26;
 	border: 0;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 0 70px;
 	color: #ffffff;
 }
 .quote {
-	padding:15px;
+	padding:5px;
 	background: #35424A;
 	color: #ffffff;
-	margin-top:10px;
 	margin-bottom: auto;
-	width: 90%;
+	
 }
 
+
+
+/*portfolio*/
+
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+
+  div.gallery {
+      border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+      border: 1px solid #E44D26;
+  }
+
+  div.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px){
+      .responsive {
+          width: 49.99999%;
+          margin: 9px 0;
+      }
+  }
+
+  @media only screen and (max-width: 500px){
+      .responsive {
+          width: 100%;
+      }
+  }
+/*responsive */
 @media(max-width:768px) {
 	header #branding, header nav, header nav li {
 		float:relative;
@@ -169,3 +234,6 @@ footer {
 		padding-bottom:2px;
 	}
 }
+
+
+
