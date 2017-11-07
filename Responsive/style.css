@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,800');
+
+
+	
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #212121;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+h1 {
+	font-family: 'Bree Serif', serif;
+	font-size: 3em;
+	color:white;
+}
+
+/* Navbar */
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	padding:  15px 10px;
+	display: block;
+}
+
+nav {
+	background-color: #aa898a;	
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	
+}
+nav a:hover {
+	background-color: #212121;
+}
+
+/* footer */
+
+footer {
+	padding: 20px 0;
+	font-size: 1em;
+}
+
+
+/*Responsive styles*/
+
+@media all and (max-width: 768px) {
+	h1 {	
+	font-family: 'Bree Serif', serif;
+	font-size: 2em;
+	color:white;
+	
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav ul li {
+	display: block;
+	text-align: center;
+	padding: 0;
+	border-bottom: 1px solid white;
+	margin: 0;
+}
+	footer {
+		display:none;
+		
+	}
+	
+	nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	text-align: center;
+}
+	
+	
+}
+
