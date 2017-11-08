@@ -6,7 +6,7 @@
 	
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #212121;
+	background-color: #4389B1;
 	margin: 0;
 	padding: 0;
 	color: white;
@@ -33,11 +33,22 @@ nav {
 	padding: 0;
 }
 
+
 nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	text-align: right;
+}
+nav ul ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul ul li{
+	display: block;
+	width:100%;
+	padding: 0;
+	margin: 0;
 }
 
 nav ul li {
@@ -50,6 +61,7 @@ nav a:hover {
 	background-color: #212121;
 }
 
+
 /* footer */
 
 footer {
@@ -57,7 +69,21 @@ footer {
 	font-size: 1em;
 }
 
+nav ul ul {
+	display:none;
+	position: absolute;
+}
 
+nav ul li:hover > ul  {
+	display:inherit;
+	background-color: #AA898A;	
+}
+
+.myStyle {
+	display:none;
+}
+
+button {display:none;}
 /*Responsive styles*/
 
 @media all and (max-width: 768px) {
@@ -65,8 +91,13 @@ footer {
 	font-family: 'Bree Serif', serif;
 	font-size: 2em;
 	color:white;
+	margin: 40px 0px;
 	
 }
+	nav {display:none;}
+
+button {display:block;}
+	
 	nav ul {
 		margin: 0;
 		padding: 0;
@@ -75,12 +106,11 @@ footer {
 	nav ul li {
 	display: block;
 	text-align: center;
-	padding: 0;
 	border-bottom: 1px solid white;
-	margin: 0;
+
 }
 	footer {
-		display:none;
+	display:none;
 		
 	}
 	
@@ -89,8 +119,16 @@ footer {
 	text-decoration: none;
 	font-size: 1em;
 	text-align: center;
+		
 }
-	
-	
+	nav ul li:hover > ul  {
+	display:inherit;
+	position: static;
+	background-color: #AE5254;
 }
+
+	
+}/*dropdown menu*/
+
+
 

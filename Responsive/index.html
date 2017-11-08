@@ -12,25 +12,36 @@
 	<h1>Responsive tutorial</h1>
 </header>
 
-<div class="nav">
-<nav>
+	<button onclick="myFunction()">Toggle menu</button>
+<nav id="myNav">
+
 	<ul>
 	 	 <li><a href="#" target="_self">Tablet</a></li>
-		<li><a href="#" target="_self">Smartphone</a></li>
+		<li><a href="#" target="_self">Smartphone</a>
+<!--Nested items -->
+			<ul>
+			 	 <li><a href="#" target="_self">HTC ABEKAT</a></li>
+	 			 <li><a href="#" target="_self">APPLE</a></li>
+	 			 <li><a href="#" target="_self">SAMSUNG</a></li>
+			</ul>	
+		</li>
 		<li><a href="#" target="_self">Desktop</a></li>
 		<li><a href="#" target="_self">Contact</a></li>
 	</ul>
 </nav>
-</div>
-
-<div class="main_content">
-	
-	
-</div>
 
 <footer>
 	<p>Copyright &copy; None </p>
 </footer>
+
+<script>
+	function myFunction () {
+		var element  = document.getElementById(""myNav");
+		
+		element.classlist.toggle("myStyle");
+	}
+									
+</script>
 
 </body>
 </html>
