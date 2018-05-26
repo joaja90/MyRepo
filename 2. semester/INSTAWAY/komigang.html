@@ -3,78 +3,74 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="normalize.css">
-	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
-	<style>
-		.komigang {
-			font-weight: 700;
-			color: #962fbf;
-			border-top: 1px solid #962fbf;
-		}
-
-	</style>
-	<title>INSTAWAY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
+    <style>
+        .komigang {
+            font-weight: 700;
+            color: #962fbf;
+            border-top: 1px solid #962fbf;
+        }
+    </style>
+    <title>INSTAWAY</title>
 </head>
 
 <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
 <body>
 
-	<header>
-		<div class="container">
-			<a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
-			<nav>
-				<ul>
-					<li><a class="current" href="index.html">Hjem</a></li>
-					<li><a href="#" class="komigang">Kom igang</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="kontakt.html">kontakt</a></li>
-					<li><a href="login.html" class="login">Log in</a></li>
-				</ul>
-			</nav>
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a class="current" href="index.html">Hjem</a></li>
+                    <li><a href="#" class="komigang">Kom igang</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="kontakt.html">kontakt</a></li>
+                    <li><a href="#" class="login">Log in</a></li>
+                </ul>
+            </nav>
 
-		</div>
-	</header>
-	<div class="vid-container">
-		<video width="1280" height="720" controls preload="none" onclick="this.paused ? this.play() : this.pause();">
+        </div>
+    </header>
+    <div class="vid-container">
+        <video width="1280" height="720" controls preload="none" onclick="this.paused ? this.play() : this.pause();">
   <source src="instavideo.mp4" type="video/mp4">
 </video>
 
-	</div>
+    </div>
 
-	<footer class="footer">
-		<div class="footer-content">
-			<p>&copy; Instaway 2018</p>
-			<p>post@instaway.dk</p>
-		</div>
-	</footer>
-	<script src="jquery-2.1.0.min.js">
-
-
-	</script>
-	<script>
-		$(window).scroll(function() {
-			var height = $(window).scrollTop();
-			if (height > 100) {
-				$('#back2Top').fadeIn();
-			} else {
-				$('#back2Top').fadeOut();
-			}
-		});
-		$(document).ready(function() {
-			$("#back2Top").click(function(event) {
-				event.preventDefault();
-				$("html, body").animate({
-					scrollTop: 0
-				}, "slow");
-				return false;
-			});
-		});
-
-	</script>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; Instaway 2018</p>
+            <p>post@instaway.dk</p>
+        </div>
+    </footer>
+    <script src="jquery-2.1.0.min.js">
+    </script>
+    <script>
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            } else {
+                $('#back2Top').fadeOut();
+            }
+        });
+        $(document).ready(function() {
+            $("#back2Top").click(function(event) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: 0
+                }, "slow");
+                return false;
+            });
+        });
+    </script>
 </body>
 
 
