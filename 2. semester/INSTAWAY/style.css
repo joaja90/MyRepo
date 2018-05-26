@@ -196,14 +196,14 @@ nav a:hover::before {
     border-radius: 5px;
     display: inline-block;
 
-    transition: all ease-in-out 200ms;
+    transition: ease-out 400ms;
 }
 
 #button:hover {
     color: dimgrey;
     background-color: #faeafe;
     text-shadow: 0px 0px;
-    transition: all ease-in-out 200ms;
+    transition: ease-in 100ms;
 }
 
 /* FOOTER */
@@ -246,14 +246,13 @@ video {
     background-color: #4f5bd5;
     color: white;
     margin-left: 50px;
-
-    transition: ease-out 220ms;
+    transition: ease-out 120ms;
 }
 
 .login:hover {
     color: white;
     background-color: #f58529;
-    transition: ease-in 120ms;
+    transition: all ease-in-out 120ms;
 }
 
 .login:hover::before {
@@ -375,6 +374,10 @@ button:active {
     color: #000;
 }
 
+
+
+
+
 @media screen and (max-width: 1075px) {
 
     .banner {
@@ -424,4 +427,27 @@ button:active {
     video {
         width: 80%
     }
+
+    /* stiller alle blog post på en lodret visning */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+
+    /* KONTAKT.HTML responsive */
+    .kontaktbanner {
+        display: none;
+    }
+
+
+    .column1 {
+        width: 50%;
+        padding: 0;
+        line-height: 2;
+        color: #43464b;
+    }
+
 }
