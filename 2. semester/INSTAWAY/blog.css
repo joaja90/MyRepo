@@ -96,16 +96,3 @@
     float: right;
     margin: 0 2.5% 0 2.5%;
 }
-
-
-@media screen and (max-width: 1078px) {
-
-
-
-    .card {
-        background-color: white;
-        padding: 20px;
-        margin-top: 20px;
-        max-width: 100%;
-    }
-}
