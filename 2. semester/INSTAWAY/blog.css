@@ -46,7 +46,7 @@
 
 
 
-#blog-button {
+.blog-button {
     background-color: #962fbf;
     color: white;
     padding: 5px 100px;
@@ -61,7 +61,7 @@
     border-radius: 5px;
 }
 
-#blog-button:hover {
+.blog-button:hover {
     color: white;
     background-color: black;
     text-shadow: 0px 0px;
