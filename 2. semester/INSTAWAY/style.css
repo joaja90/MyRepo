@@ -148,7 +148,7 @@ nav a:hover::before {
 	padding: 20px;
 	line-height: 2;
 	color: #43464b;
-	float: left;
+	margin: 0 auto;
 }
 
 
