@@ -228,6 +228,13 @@ nav a:hover::before {
 
 }
 
+.footer-content img {
+    height: auto;
+    width: 0px;
+    display: inline-block;
+
+}
+
 /* Video sektion på komigang.html */
 
 video {
