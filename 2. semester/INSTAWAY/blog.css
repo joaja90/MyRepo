@@ -1,9 +1,9 @@
 /* STYLING AF BLOG SITE*/
 
-.banner {
+.banner-blog {
     height: 60vh;
     width: 100%;
-    background-image: url(img/blog.png);
+    background-color: url(img/frontpage.png);
     background-size: cover;
     padding: 12%;
     background-repeat: no-repeat;

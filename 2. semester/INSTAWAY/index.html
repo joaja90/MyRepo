@@ -2,7 +2,6 @@
 <html lang="da">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Instaway hjælper jeres virksomhed til bedre indtjening og flere kunder med Instagram, influencers og års erfaring">
@@ -10,19 +9,20 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+
+    <!-- Embedded CSS som highligther det aktuelle nav link -->
     <style>
         .hjem {
             font-weight: 700;
             color: #962fbf;
             border-top: 1px solid #962fbf;
         }
-
     </style>
     <title>Instaway</title>
 </head>
 
 <body>
-
+    <!-- Header sektion -->
     <header>
         <div class="container">
             <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
@@ -37,8 +37,12 @@
             </nav>
         </div>
     </header>
+
+    <!-- Link til at back to top knappen ved hvad den skal henvise til -->
     <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
+
+    <!-- Banner billede -->
     <div class="banner">
         <div class="banner-text">
             <h1>Har din virksomhed<br>udnyttet potentialet <br>på Instagram?</h1>
@@ -47,6 +51,7 @@
         </div>
     </div>
 
+    <!-- Forside indhold -->
     <div class="container">
         <div class="column">
             <h2>Velkommen hos Instaway Business</h2>
@@ -55,15 +60,17 @@
             <img src="img/frontpage.png" class="frontpage" alt="instafacts">
         </div>
     </div>
+
+    <!-- Footer indhold -->
     <footer class="footer">
         <div class="footer-content">
             <p>&copy; Instaway 2018</p>
             <p>post@instaway.dk</p>
         </div>
     </footer>
+
+    <!-- Script for at tilbage til top knap fungerer -->
     <script src="jquery-2.1.0.min.js">
-
-
     </script>
     <script>
         $(window).scroll(function() {
@@ -83,7 +90,6 @@
                 return false;
             });
         });
-
     </script>
 </body>
 
