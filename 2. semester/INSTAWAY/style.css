@@ -20,6 +20,7 @@ body {
     font-family: 'montserrat', sans-serif;
     line-height: 1.5;
     font-size: 1em;
+    color: #333333;
 }
 
 html,
@@ -152,6 +153,13 @@ nav a:hover::before {
     padding: 0 30px;
 }
 
+.velkommen {
+    margin: 0 auto;
+    width: 70%;
+    padding: 2%;
+
+}
+
 
 /* Banner under navigationsbar*/
 
@@ -195,7 +203,6 @@ nav a:hover::before {
     text-transform: uppercase;
     border-radius: 5px;
     display: inline-block;
-
     transition: ease-out 400ms;
 }
 
@@ -221,7 +228,7 @@ nav a:hover::before {
     text-align: center;
     color: black;
     padding: 30px;
-    box-shadow: inset 0px 8px 10px #434e56;
+    box-shadow: inset 0px 8px 25px #434e56;
 }
 
 .footer-content img {
@@ -406,8 +413,8 @@ button:active {
     text-align: center;
     display: block;
     margin: 50px auto;
-
-
+    border-radius: 200px 50px;
+    box-shadow: 2px 2px 20px grey;
 }
 
 
