@@ -59,9 +59,9 @@
     font-weight: 600;
     opacity: .9;
     text-transform: uppercase;
-    position: sticky;
     transition: ease-in 300ms;
     border-radius: 5px;
+    
 }
 
 .blog-button:hover {
@@ -69,7 +69,7 @@
     background-color: black;
     text-shadow: 0px 0px;
     transition: ease-out 300ms;
-    opacity: .4;
+    opacity: .8;
 }
 
 .influencer {
@@ -115,5 +115,5 @@
 /* Top 5 apps blog */
 
 .postrow {
-    padding: 50px 100px 100px 100px
+    padding: 50px 100px 100px 100px;
 }
