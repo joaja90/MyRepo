@@ -3,29 +3,29 @@
 *,
 *:before,
 *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	font-size: 100%;
-	-webkit-font-smoothing: antialiased;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
 
 }
 
 h2 {
-	font-size: 1.4em
+    font-size: 1.4em
 }
 
 body {
-	margin: 0;
-	font-family: 'montserrat', sans-serif;
-	line-height: 1.5;
-	font-size: 1em;
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 1em;
 }
 
 html,
 body {
-	height: 100%;
-	position: relative;
+    height: 100%;
+    position: relative;
 
 }
 
@@ -35,88 +35,88 @@ body {
 /* Centrer indhold og fjerner margins + clearfix */
 
 .container {
-	margin: 0 auto;
-	width: 80%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .container:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Styling af navigationsbar containeren*/
 
 header {
-	background: white;
-	position: fixed;
-	width: 100%;
-	height: 80px;
-	z-index: 1;
-	opacity: .9;
-	padding: 5px 0;
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    opacity: .9;
+    padding: 5px 0;
 }
 
 /*Clearfix*/
 
 header::after {
-	content: '';
-	display: table;
-	clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
 /* formindsker logo og rykker mod venstre*/
 
 .logo {
-	float: left;
-	height: 70px;
-	width: auto;
-	padding: 15px 0px;
+    float: left;
+    height: 70px;
+    width: auto;
+    padding: 15px 0px;
 }
 
 /* Rykke navigation bar til højre*/
 
 nav {
-	float: right;
+    float: right;
 
 }
 
 /* Navigation links styling*/
 
 nav ul {
-	padding: 0;
-	list-style: none;
+    padding: 0;
+    list-style: none;
 
 
 }
 
 nav ul li {
 
-	display: inline-block;
-	position: relative;
+    display: inline-block;
+    position: relative;
 
 }
 
 nav a {
-	text-decoration: none;
-	color: #43464b;
-	font-size: 1em;
-	padding: 10px;
-	font-weight: 500;
-	text-transform: uppercase;
+    text-decoration: none;
+    color: #43464b;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
 
 }
 
 a:hover {
-	color: #962fbf;
-	font-weight: 550;
+    color: #962fbf;
+    font-weight: 550;
 }
 
 
@@ -124,19 +124,19 @@ a:hover {
 /* Pseudo element for gradient animation*/
 
 nav a::before {
-	content: '';
-	display: block;
-	height: 2px;
-	width: 100%;
-	background: linear-gradient(0.25turn, #d331f7, #ff3ca5, #ffa94b);
-	position: absolute;
-	bottom: 0;
-	width: 0%;
-	transition: all ease-in-out 200ms;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(0.25turn, #d331f7, #ff3ca5, #ffa94b);
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 200ms;
 }
 
 nav a:hover::before {
-	width: 100%;
+    width: 100%;
 }
 
 
@@ -144,26 +144,26 @@ nav a:hover::before {
 
 
 .column {
-	width: 50%;
-	line-height: 2;
-	color: #43464b;
-	margin: 0 auto;
-	float: left;
+    width: 50%;
+    line-height: 2;
+    color: #43464b;
+    margin: 0 auto;
+    float: left;
+    padding: 0 30px;
 }
 
 
 /* Banner under navigationsbar*/
 
 .banner {
-	height: 60vh;
-	max-width: 100%;
-	background-image: url(img/banner.jpg);
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: block;
-	position: relative;
+    height: 60vh;
+    max-width: 100%;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
 
 }
 
@@ -172,85 +172,84 @@ nav a:hover::before {
 /* Text styling på banner billedet*/
 
 .banner-text {
-	color: white;
-	text-shadow: -1px -1px 20px black;
-	line-height: 1.4;
-	font-size: 1.3em;
-	position: absolute;
-	margin-left: 0;
-	margin: 5% 11%;
+    color: white;
+    text-shadow: -1px -1px 20px black;
+    line-height: 1.4;
+    font-size: 1.3em;
+    position: absolute;
+    margin-left: 0;
+    margin: 5% 11%;
 }
 
 /* Styling af KLIK HER knap på forsiden */
 
 .button {
-	background-color: #962fbf;
-	color: white;
-	padding: 10px 60px;
-	text-decoration: none;
-	font-size: 1em;
-	box-shadow: 0px 0px 90px #962fbf;
-	font-weight: 500;
-	opacity: .9;
-	text-transform: uppercase;
-	border-radius: 5px;
-	display: inline-block;
+    background-color: #962fbf;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 1em;
+    box-shadow: 0px 0px 90px #962fbf;
+    font-weight: 500;
+    opacity: .9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
 
-	transition: ease-out 400ms;
+    transition: ease-out 400ms;
 }
 
 
 .button:hover {
-	color: dimgrey;
-	background-color: #faeafe;
-	text-shadow: 0px 0px;
-	transition: ease-in 100ms;
+    color: dimgrey;
+    background-color: #faeafe;
+    text-shadow: 0px 0px;
+    transition: ease-in 100ms;
 }
 
 /* FOOTER */
 
 .footer {
-	bottom: 0px;
-	width: 100%;
-	background-color: #93A1AC;
-	margin-top: 200px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #93A1AC;
+    margin-top: 200px;
 
 }
 
 .footer-content {
-	text-align: center;
-	color: black;
-	padding: 30px;
-	font-weight: bold;
-	box-shadow: inset 0px 8px 10px #434e56;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    box-shadow: inset 0px 8px 10px #434e56;
 }
 
 .footer-content img {
-	height: 70px;
-	width: auto;
-	padding: 6px;
-	margin: 0 12px
+    height: 70px;
+    width: auto;
+    padding: 6px;
+    margin: 0 12px
 }
 
 /* Video sektion på komigang.html */
 
 video {
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-	display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .vid-container {
-	display: block;
-	padding: 100px 0 0 0;
-	text-align: center;
+    display: block;
+    padding: 100px 0 0 0;
+    text-align: center;
 }
 
 .pakker {
-	padding: 2%;
-	text-align: center;
-	margin-top: 50px;
+    padding: 2%;
+    text-align: center;
+    margin-top: 50px;
 }
 
 
@@ -258,103 +257,103 @@ video {
 /* Styling af login knap */
 
 .login {
-	border-radius: 10px;
-	background-color: #4f5bd5;
-	color: white;
-	margin-left: 50px;
-	transition: ease-out 120ms;
+    border-radius: 10px;
+    background-color: #4f5bd5;
+    color: white;
+    margin-left: 50px;
+    transition: ease-out 120ms;
 }
 
 .login:hover {
-	color: white;
-	background-color: #f58529;
-	transition: all ease-in-out 120ms;
+    color: white;
+    background-color: #f58529;
+    transition: all ease-in-out 120ms;
 }
 
 .login:hover::before {
-	width: 0%;
+    width: 0%;
 }
 
 /* KONTAKT FORM */
 
 .field {
-	margin: 1em 0;
+    margin: 1em 0;
 }
 
 label {
-	display: block;
-	margin-top: 2em;
-	margin-bottom: 0.5em;
-	color: #999999;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: #999999;
 }
 
 input {
-	width: 100%;
-	padding: 0.5em 0.5em;
-	font-size: 1.2em;
-	border-radius: 3px;
-	border: 1px solid #D9D9D9;
+    width: 100%;
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
 }
 
 textarea {
-	width: 100%;
-	height: 200px;
-	padding: 0.5em 0.5em;
-	font-size: 1.2em;
-	border-radius: 3px;
-	border: 1px solid #D9D9D9;
+    width: 100%;
+    height: 200px;
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
 }
 
 button {
-	display: inline-block;
-	border-radius: 3px;
-	border: none;
-	font-size: 0.9rem;
-	padding: 0.5rem 0.8em;
-	background: #8134af;
-	border-bottom: 1px solid #498b50;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	font-weight: bold;
-	margin: 0;
-	width: 100%;
-	text-align: center;
-	box-shadow: 0 5px 30px #cdcdcd;
+    display: inline-block;
+    border-radius: 3px;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8em;
+    background: #8134af;
+    border-bottom: 1px solid #498b50;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 5px 30px #cdcdcd;
 }
 
 button:hover,
 button:focus {
-	opacity: 0.75;
-	cursor: pointer;
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 button:active {
-	opacity: 1;
-	box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+    opacity: 1;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
 .success {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #468847;
-	background-color: #dff0d8;
-	border: 1px solid #d6e9c6;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .error {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #b94a48;
-	background-color: #f2dede;
-	border: 1px solid rgba(185, 74, 72, 0.3);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 
@@ -362,51 +361,51 @@ button:active {
 /* BACK TO TOP KNAP */
 
 #back2Top {
-	width: 70px;
-	line-height: 70px;
-	overflow: hidden;
-	z-index: 999;
-	display: none;
-	cursor: pointer;
-	-moz-transform: rotate(270deg);
-	-webkit-transform: rotate(270deg);
-	-o-transform: rotate(270deg);
-	-ms-transform: rotate(270deg);
-	transform: rotate(270deg);
-	position: fixed;
-	bottom: 20%;
-	right: 0;
-	background-color: #962fbf;
-	color: white;
-	text-align: center;
-	font-size: 30px;
-	text-decoration: none;
-	border-radius: 15px;
-	margin: 0 30px 0 0;
+    width: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    background-color: #962fbf;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0 30px 0 0;
 }
 
 #back2Top:hover {
-	background-color: #DDF;
-	color: #000;
+    background-color: #DDF;
+    color: #000;
 }
 
 
 /* Styling af Pakker på komigang.html*/
 
 .pakker img {
-	width: 30%;
-	height: auto;
-	display: inline-block;
-	margin: 100px 10px 0px 10px;
-	border-radius: 30px;
-	box-shadow: 0px 0px 20px grey;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin: 100px 10px 0px 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px grey;
 }
 
 
 .frontpage {
-	text-align: center;
-	display: block;
-	margin: 50px auto;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
 
 
 }
@@ -414,85 +413,85 @@ button:active {
 
 @media screen and (max-width: 1075px) {
 
-	.pakker img {
-		width: 70%;
-		height: auto;
-		display: block;
-		margin: 100px auto 0;
-		border-radius: 30px;
-		box-shadow: 0px 0px 70px grey;
+    .pakker img {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 100px auto 0;
+        border-radius: 30px;
+        box-shadow: 0px 0px 70px grey;
 
-	}
+    }
 
-	.banner {
-		display: none;
-	}
-
-
-	.column {
-		width: 100%;
-	}
+    .banner {
+        display: none;
+    }
 
 
-	nav {
-		text-align: center;
-		width: 100%;
-
-	}
-
-	/*Kollapser menuen*/
-	ul li {
-		display: block;
-		width: 100%;
-		margin-bottom: 30px;
+    .column {
+        width: 100%;
+    }
 
 
-	}
-	header {
-		position: relative;
-		margin-bottom: 320px;
-	}
+    nav {
+        text-align: center;
+        width: 100%;
 
-	.login {
-		margin: 0;
-	}
+    }
 
-
-	/*Tilpasser logo på smartphone */
-	.logo {
-		max-width: 70%;
-		height: auto;
-		margin: 0 15%;
-	}
-	.container {
-		width: 90%;
-	}
-
-	video {
-		width: 80%
-	}
-
-	/* stiller alle blog post på en lodret visning */
-	.card {
-		background-color: white;
-		padding: 20px;
-		margin-top: 20px;
-		min-width: 100%;
-		display: block;
-	}
+    /*Kollapser menuen*/
+    ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
 
 
-	/* KONTAKT.HTML responsive */
-	.kontaktbanner {
-		display: none;
-	}
+    }
+    header {
+        position: relative;
+        margin-bottom: 320px;
+    }
+
+    .login {
+        margin: 0;
+    }
 
 
-	.column1 {
-		width: 50%;
-		padding: 0;
-		line-height: 2;
-		color: #43464b;
-	}
+    /*Tilpasser logo på smartphone */
+    .logo {
+        max-width: 70%;
+        height: auto;
+        margin: 0 15%;
+    }
+    .container {
+        width: 90%;
+    }
+
+    video {
+        width: 80%
+    }
+
+    /* stiller alle blog post på en lodret visning */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        min-width: 100%;
+        display: block;
+    }
+
+
+    /* KONTAKT.HTML responsive */
+    .kontaktbanner {
+        display: none;
+    }
+
+
+    .column1 {
+        width: 50%;
+        padding: 0;
+        line-height: 2;
+        color: #43464b;
+    }
 
 }
