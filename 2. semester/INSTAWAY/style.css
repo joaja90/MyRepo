@@ -413,8 +413,9 @@ button:active {
     text-align: center;
     display: block;
     margin: 50px auto;
-    border-radius: 200px 50px;
+    border-radius: 20px;
     box-shadow: 2px 2px 20px grey;
+    width: 100%;
 }
 
 
@@ -427,6 +428,11 @@ button:active {
         margin: 100px auto 0;
         border-radius: 30px;
         box-shadow: 0px 0px 70px grey;
+
+    }
+
+    .postrow {
+        padding: 0;
 
     }
 
@@ -454,6 +460,7 @@ button:active {
 
 
     }
+
     header {
         position: relative;
         margin-bottom: 320px;
@@ -470,6 +477,7 @@ button:active {
         height: auto;
         margin: 0 15%;
     }
+
     .container {
         width: 90%;
     }

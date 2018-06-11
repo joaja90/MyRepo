@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <style>
+        nav ul li .blog {
+            font-weight: 700;
+            color: #962fbf;
+            border-top: 1px solid #962fbf;
+        }
+    </style>
+    <title>Blogs, tutorial, video mm. Sådan opnår man mere succes på Instagram</title>
+</head>
+
+<body>
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a class="current" href="index.html">Hjem</a></li>
+                    <li><a href="komigang.html">Kom igang</a></li>
+                    <li><a href="blog.html" class="blog">Blog</a></li>
+                    <li><a href="kontakt.html">kontakt</a></li>
+                    <li><a href="login.html" class="login">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-blog">
+    </div>
+    <div class="container">
+        <div class="blog-header">
+            <h2>Virksomhedsprofil på Instagram</h2>
+        </div>
+
+        <div class="postrow">
+            <img src="img/virksomhed.jpg" class="influencer">
+            <br><br><br>
+            <a href="blog.html" class="blog-button">Tilbage</a>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>post@instaway.dk</p>
+            <a href="http://www.facebook.com"><img src="img/facelink.png"></a>
+            <a href="http://www.instagram.com"><img src="img/instalink.png"></a>
+        </div>
+    </footer>
+
+    <script>
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            } else {
+                $('#back2Top').fadeOut();
+            }
+        });
+        $(document).ready(function() {
+            $("#back2Top").click(function(event) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: 0
+                }, "slow");
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
