@@ -1,14 +1,14 @@
 /* STYLING AF BLOG SITE*/
 
 .banner-blog {
-    height: 60vh;
-    max-width: 100%;
-    background-image: url(img/blog.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    position: relative;
+	height: 60vh;
+	max-width: 100%;
+	background-image: url(img/blog.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	position: relative;
 
 }
 
@@ -16,104 +16,95 @@
 
 
 .blog-header {
-    font-size: 30px;
-    text-align: center;
-    background: white;
-    margin-top: 40px;
+	font-size: 30px;
+	text-align: center;
+	background: white;
+	margin-top: 40px;
 }
 
 
 
 
 .card {
-    background-color: white;
-    padding: 40px;
-    max-width: 50%;
-    float: left;
+	background-color: white;
+	padding: 40px;
+	max-width: 50%;
+	float: left;
 }
 
 
 
 .row .card p {
-    padding: 5% 0;
+	padding: 5% 0;
 }
 
 /* Clear floats after the columns */
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 
 }
 
 
+/* Styling af LÆS knap og Hover effekt*/
 
 .blog-button {
-    background-color: #962fbf;
-    color: white;
-    padding: 10px 80px;
-    text-decoration: none;
-    font-size: 1.4em;
-    box-shadow: 0px 0px 90px;
-    font-weight: 600;
-    opacity: .9;
-    text-transform: uppercase;
-    transition: ease-in 300ms;
-    border-radius: 5px;
-    
+	background-color: #962fbf;
+	color: white;
+	padding: 10px 80px;
+	text-decoration: none;
+	font-size: 1.4em;
+	box-shadow: 0px 0px 90px;
+	font-weight: 600;
+	opacity: .9;
+	text-transform: uppercase;
+	transition: ease-in 300ms;
+	border-radius: 5px;
+
 }
 
 .blog-button:hover {
-    color: white;
-    background-color: black;
-    text-shadow: 0px 0px;
-    transition: ease-out 300ms;
-    opacity: .8;
+	color: white;
+	background-color: black;
+	text-shadow: 0px 0px;
+	transition: ease-out 300ms;
+	opacity: .8;
 }
 
 .influencer {
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 8px 10px #dadedf;
-    max-width: 100%;
-    border-radius: 5px;
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 8px 10px #dadedf;
+	max-width: 100%;
+	border-radius: 5px;
 
 }
 
 /* Styling af post sider */
 
 .post {
-    max-width: 45%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    border-radius: 20px
-}
-
-.geo {
-    float: left;
-    margin: 0 2.5% 2.5% 0;
-}
-
-.snip {
-    float: right;
-    margin: 0 2.5% 0 2.5%;
+	max-width: 45%;
+	text-align: center;
+	display: block;
+	margin: auto;
+	border-radius: 20px
 }
 
 .postpics {
-    height: auto;
-    width: 10%;
-    border-radius: 15px;
-    display: block;
+	height: auto;
+	width: 10%;
+	border-radius: 15px;
+	display: block;
 }
 
 .row h3 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 /* Top 5 apps blog */
 
 .postrow {
-    padding: 50px 100px 100px 100px;
+	padding: 50px 100px 100px 100px;
 }
