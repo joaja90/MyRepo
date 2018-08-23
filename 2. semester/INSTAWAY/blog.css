@@ -67,10 +67,9 @@
 
 .blog-button:hover {
 	color: white;
-	background-color: black;
 	text-shadow: 0px 0px;
 	transition: ease-out 300ms;
-	opacity: .8;
+	box-shadow: inset 1px 1px 70px black;
 }
 
 .influencer {
