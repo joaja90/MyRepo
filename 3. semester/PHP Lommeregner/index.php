@@ -11,21 +11,21 @@
 <body>
 	<form>
 
-		<input type="text" name="num1" placeholder="Insert number"><br>
-		<input type="text" name="num2" placeholder="Insert number">
+		<input type="text" name="num1" placeholder="Tal"><br>
+		<input type="text" name="num2" placeholder="Tal">
 		<select name="operator">
-			<option>None</option>
-			<option>Add</option>
-			<option>Subtract</option>
-			<option>Multiply</option>
-			<option>Divide</option>
+			<option>Vælg venligst</option>
+			<option>Plus</option>
+			<option>Minus</option>
+			<option>Gange</option>
+			<option>Divider</option>
 		</select>
 		<br>
-		<button type="submit" name="submit" value="submit">Calculate</button>
+		<button type="submit" name="submit" value="submit">Udregn</button>
 
 	</form>
 
-	<p>Result:</p>
+	<p>Resultat:</p>
 
 	<?php 
 	if (isset($_GET['submit'])) {
@@ -33,19 +33,19 @@
 		$result2 = $_GET['num2']; 
 		$operator = $_GET['operator'];
 		switch ($operator) {
-			case "None":
-				echo "Please select a method";
+			case "Vælg venligst":
+				echo "Vælg metode fra dropdown menuen";
 				break; 
-				case "Add":
+				case "Plus":
 				echo $result1 + $result2;
 				break; 
-				case "Subtract":
+				case "Minus":
 				echo $result1 - $result2;
 				break; 
-				case "Multiply":
+				case "Gange":
 				echo $result1 * $result2;
 				break; 
-				case "Divide":
+				case "Divider":
 				echo $result1 / $result2;
 				break; 
 		}
