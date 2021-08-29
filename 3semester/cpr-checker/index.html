@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>cpr check</title>
+</head>
+
+<body>
+    <section>
+        <div class="wrapper">
+            <div class="row1">
+                <div class="kasse1">
+                    <h1>Er dit CPR-nr virkeligt?</h1>
+                </div>
+            </div>
+
+            <div class="row3">
+                <div class="kasse3">
+                    <form>
+                        <p>Indtast dit cpr-nr...</p>
+                        <input id="cpr" onKeyup="textChanged(false)" onkeypress='validate(event)' class="input"
+                            type="number" placeholder="f.eks.: 241290-1928">
+                        <button onclick="textChanged(true)" type="reset">Check dit CPR-nr</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row2">
+                <div class="kasse2">
+                    <p>kasse 2.1</p>
+                </div>
+
+                <div class="kasse2">
+                    <p>kasse 2.3</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="../cpr-checker/main.js"></script>
+
+</body>
+
+</html>
