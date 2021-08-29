@@ -16,3 +16,8 @@ else if (cpr.length <= 9) {
 else if (cpr.length >= 11 ) {
     console.log('CPR-nr. skal være på 10 cifre, eller 11 cifre hvis du bruger bindestreg')
 }
+
+
+// Meget forsimplet kode. 
+// Har pga. sygdom, ikke kunne nå mere
+// men er godt igang med køre på med The Net Ninja m.v.
